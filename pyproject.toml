@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "JoyIT_MotoPi"
+version = "1.0.0"
+authors = [
+  { name="Joy-IT", email="service@joy-it.net" },
+]
+description = "This library enables usage of RB-Moto3 with the Raspberry Pi."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/joy-it/JoyIT_MotoPi"
+Issues = "https://github.com/joy-it/JoyIT_MotoPi/issues"
