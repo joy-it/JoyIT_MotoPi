@@ -2,6 +2,9 @@
 requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
+[tool.hatch.build.targets.wheel]
+packages = ["MotoPi"]
+
 [project]
 name = "JoyIT_MotoPi"
 version = "1.0.0"
@@ -16,6 +19,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 license-files = ["LICENSE"]
+dependencies = ["smbus2", "gpiozero", "adafruit-circuitpython-motor"]
 
 [project.urls]
 Homepage = "https://github.com/joy-it/JoyIT_MotoPi"
