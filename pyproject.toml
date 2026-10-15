@@ -7,7 +7,7 @@ packages = ["MotoPi"]
 
 [project]
 name = "JoyIT_MotoPi"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="Joy-IT", email="service@joy-it.net" },
 ]

@@ -18,14 +18,14 @@ Enable I²C using `sudo raspi-config` (Interface Options → I2C), then reboot i
 You can install this library from PyPI. To install it for the current user on your Raspberry Pi, use the following command:
 
 ```bash
-pip3 install JoyIT_MotoPi
+pip install JoyIT-MotoPi
 ```
 
 Install library into virtual environment:
 ```bash
 python -m venv --system-site-packages env
 source env/bin/activate
-pip3 install JoyIT_MotoPi
+pip install JoyIT-MotoPi
 ```
 
 ## API reference
