@@ -361,7 +361,7 @@ class MotoPi:
         """
         Close the I2C bus if owned and deactivate/close the GPIO output.
         """
-        if self._owns_bus:
+        if self._owns_bus and self._bus is not None:
             self._bus.close()
         if self._enable is not None:
             self._enable.off()
